@@ -3,12 +3,13 @@ package festine_project;
 import java.util.Scanner;
 
 public class OddAndEven {
+
     // write a method that can identify given number as odd or even
-   // identify(5)--> odd
+    // identify(5)--> odd
     // identify(6)--> even
 
     public static String identify( int num){
-        if(num%2==0){
+        if(num % 2 == 0){
             return  "even";
         }else{
             return "odd";
